@@ -34,7 +34,7 @@
 
   --maxNsim   [int]     Number of simulations to be used (if absent = Nsim)
  
-  --T         [int]     Length of evlutionary trajectories, i.e. number of generations.
+  --T         [int]     Length of evolutionary trajectories, i.e. number of generations.
 
   --nTs       [int]     Number of sampling instances to be used
 
