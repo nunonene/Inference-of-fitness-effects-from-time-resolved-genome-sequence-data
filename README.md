@@ -68,6 +68,8 @@
  2. --data should be in the form of Nsim replicates by T columns; there should be one file per haplotype and each should be named *_Haplo*_smpl.txt.
 
  3. Files with mutational weights for the hypercube should be HyperGraphMutMat_nh*.txt, where * represents the number of haplotypes. Any other weights    distribution should be in this format. The sum of out mutation weights should sum to 1. See examples in HyperGraphMutFit folder
+ 
+ 4. In order to compile see Makefile (requires gsl) in src folder. Once compiled copy ./FKHoptm to the Examples folder in order to run the code with the files provided.
 
  Example (see data in Examples folder):
 
