@@ -75,4 +75,4 @@
 
  (Stochastic model)
 
- ./FKHoptm --data SimKhaploDynamics_Khaplo6_N1000000000_Nsim100_C100_Init1_sigma0.5_mu0.00001_T2000_TypeLin --out  SimKhaploDynamics_Khaplo6_N1000000000_Nsim100_C100_Init1_sigma0.5_mu0.00001_T2000_TypeLin --N 1000000000 --C 100 --mu 0.00001 --Nsim 100 --maxNsim 100 --T 2000 --nTs 200 --Khaplo 6 --si 0.01 --sf 1 --sgrid 100 --DSModel 2 --mode 1 --optmode 1 --Type 0;
+ ./FKHoptm --data SimKhaploDynamics_Khaplo6_N1000000000_Nsim100_C100_Init1_sigma0.1_mu0.00001_T2000_TypeLin --out  SimKhaploDynamics_Khaplo6_N1000000000_Nsim100_C100_Init1_sigma0.1_mu0.00001_T2000_TypeLin --N 1000000000 --C 100 --mu 0.00001 --Nsim 100 --maxNsim 100 --T 2000 --nTs 200 --Khaplo 6 --si 0.01 --sf 1 --sgrid 100 --DSModel 2 --mode 1 --optmode 1 --Type 0;
