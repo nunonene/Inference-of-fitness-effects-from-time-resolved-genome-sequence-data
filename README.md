@@ -1,4 +1,4 @@
-# Inference-of-fitness-effects-from-time-resolved-genome-sequence-data
+ Inference-of-fitness-effects-from-time-resolved-genome-sequence-data
 ======================================================================
 
 
@@ -12,19 +12,26 @@
 
  Additional code for inference from experimental time-series is available elsewhere (see paper for details).
  
+ Examples folder
+ ---------------
+ Wright-Fisher time-series for a linear fitness chain and a fitness hypercube (see also paper for details).
  
+ 
+ HyperGraphMutFit folder
+ -----------------------
+ Files with mutational weights for the hypercube should be HyperGraphMutMat_nh*.txt, where * represents the number of haplotypes. Any other weights    distribution should be in this format. The sum of out mutation weights should sum to 1. See examples in HyperGraphMutFit folder.
  
  src folder
  ----------
+ C++ files
+ 
 
- FKHoptm.cpp
-
-  Output:
+ Output:
 
   -- Inferred fitness values s and additional delay-deterministic model threshold (\beta) parameters. Population size N is not inferred.
 
 
-  Required Arguments:
+ Required Arguments:
 
   --data      [str]     Observed time-frequencies file (each line corresponds to a replicate) when read depth was C (see below)
 
@@ -73,9 +80,7 @@
  
  2. --data should be in the form of Nsim replicates by T columns; there should be one file per haplotype and each should be named *_Haplo*_smpl.txt.
 
- 3. Files with mutational weights for the hypercube should be HyperGraphMutMat_nh*.txt, where * represents the number of haplotypes. Any other weights    distribution should be in this format. The sum of out mutation weights should sum to 1. See examples in HyperGraphMutFit folder
- 
- 4. In order to compile see Makefile (requires gsl) in src folder. Once compiled copy ./FKHoptm to the Examples folder in order to run the code with the files provided.
+ 3. In order to compile see Makefile (requires gsl) in src folder. Once compiled copy ./FKHoptm to the Examples folder in order to run the code with the files provided.
 
  Example (see data in Examples folder):
 
