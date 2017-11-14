@@ -1,4 +1,5 @@
 # Inference-of-fitness-effects-from-time-resolved-genome-sequence-data
+======================================================================
 
 
  Code used in paper 
@@ -10,6 +11,11 @@
 
 
  Additional code for inference from experimental time-series is available elsewhere (see paper for details).
+ 
+ 
+ 
+ src folder
+ ----------
 
  FKHoptm.cpp
 
