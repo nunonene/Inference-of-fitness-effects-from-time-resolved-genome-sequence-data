@@ -4,7 +4,7 @@
 
  Initial code used in paper 
 
- "A delay-deterministic model for inferring fitness effects from time-resolved genome sequence data", Nuno R. Nene, Alastair S. Dunham,  Christopher J. R. Illingworth. https://www.biorxiv.org/content/early/2017/12/07/229963. (under review)
+ "A delay-deterministic model for inferring fitness effects from time-resolved genome sequence data", Nuno R. Nene, Alastair S. Dunham,  Christopher J. R. Illingworth. http://www.genetics.org/content/early/2018/03/02/genetics.118.300790. (GENETICS)
 
 
  for inference of fitness landscapes from simulated Wright-Fisher evolutionary time-series.
